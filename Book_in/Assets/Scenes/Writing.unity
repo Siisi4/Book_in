@@ -383,10 +383,55 @@ PrefabInstance:
       propertyPath: m_fontColor.b
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3208063553806038008, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208063553806038008, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208063553806038008, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_firstOverflowCharacterIndex
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208063553806038008, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208063553806038008, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208063553806038008, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208063553806038008, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208063553806038008, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3208063553806038009, guid: df754cac69d9c0e4280e987bcaa791f9,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -0.000030517578
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208063553806038009, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3208063553816760857, guid: df754cac69d9c0e4280e987bcaa791f9,
         type: 3}
