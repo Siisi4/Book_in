@@ -5,11 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class BureauManager : MonoBehaviour
 {
+
+    int activeScene;
+
     void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            SceneManager.LoadScene("Writing");
+            int activeScene = PlayerPrefs.GetInt("ActiveScene");
+            SceneManager.LoadScene(activeScene);
         }
     }
 }
