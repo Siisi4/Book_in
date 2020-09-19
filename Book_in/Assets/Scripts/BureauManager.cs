@@ -2,18 +2,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using TMPro;
 
 public class BureauManager : MonoBehaviour
 {
-
-    int activeScene;
 
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            int activeScene = PlayerPrefs.GetInt("ActiveScene");
-            SceneManager.LoadScene(activeScene);
+  
+            SceneManager.LoadScene("Writing");
         }
     }
 }
