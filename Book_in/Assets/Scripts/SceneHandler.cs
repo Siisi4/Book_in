@@ -7,7 +7,7 @@ public class SceneHandler : MonoBehaviour
 {
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
     public void SaveScene()

@@ -9,14 +9,14 @@ using UnityEngine.Events;
 public class playerPrefs : MonoBehaviour
 {
     public TMP_Text MonTexte;
-
+    
 
     void Start()
     {
-
+        
     }
 
-
+    // Save du texte outputzone
     public void LoadText()
     {
         
@@ -33,5 +33,6 @@ public class playerPrefs : MonoBehaviour
         // On va voir si la fonction marche avec un Debug :
         Debug.Log("Tu viens d'enregistrer ton texte ! : " + MonTexte.text);
     }
+    
 
 }
