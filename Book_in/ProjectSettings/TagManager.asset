@@ -6,6 +6,7 @@ TagManager:
   tags:
   - SceneHandler
   - test
+  - Encre
   layers:
   - Default
   - TransparentFX

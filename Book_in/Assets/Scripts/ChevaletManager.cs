@@ -14,4 +14,20 @@ public class ChevaletManager : MonoBehaviour
             SceneManager.LoadScene("Painting");
         }
     }
+
+    public void ToArtScene()
+    {
+        SceneManager.LoadScene("Art");
+    }
+
+    public void ToMainScene()
+    {
+        SceneManager.LoadScene("Main Scene");
+    }
+
+    public void ToPaintScene()
+    {
+        SceneManager.LoadScene("Painting");
+    }
+
 }
