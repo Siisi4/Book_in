@@ -6,12 +6,25 @@ using UnityEngine.UI;
 
 public class ChevaletManager : MonoBehaviour
 {
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-
             SceneManager.LoadScene("Painting");
         }
     }
+
+    public void ToArtScene()
+    {
+        SceneManager.LoadScene("Art");
+    }
+
+    public void ToMainScene()
+    {
+        SceneManager.LoadScene("Main Scene");
+    }
+
+    
+
 }
