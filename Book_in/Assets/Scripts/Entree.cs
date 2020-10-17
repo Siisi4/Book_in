@@ -18,6 +18,7 @@ public class Entree : MonoBehaviour
 
     public GameObject Player;
     public Transform tp;
+    
 
     private void OnTriggerEnter(Collider other)
     {
