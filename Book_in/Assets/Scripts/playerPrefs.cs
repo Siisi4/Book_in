@@ -7,7 +7,10 @@ using TMPro;
 public class playerPrefs : MonoBehaviour
 {
     public TMP_Text MonTexte;
+    public TMP_Text MonTexte1;
+
     public TMP_Text TextReload;
+    public TMP_Text TextReload1;
 
 
     void Start()
@@ -36,5 +39,12 @@ public class playerPrefs : MonoBehaviour
         Debug.Log("Click load text " + TextReload.text);
 
     }
+
+    public void SaveSlot1()
+    {
+        PlayerPrefs.SetString("Slot1", MonTexte1.text);
+    }
+
+    
 
 }

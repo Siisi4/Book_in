@@ -1940,7 +1940,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1907680087}
-        m_MethodName: SaveText
+        m_MethodName: SaveSlot1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2618,8 +2618,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1c1e044f6abbe6409d2a386c89b0d7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MonTexte: {fileID: 570170036}
-  MonTexte1: {fileID: 0}
+  MonTexte: {fileID: 0}
+  MonTexte1: {fileID: 570170036}
   TextReload: {fileID: 0}
   TextReload1: {fileID: 0}
 --- !u!114 &1907680088
@@ -2648,7 +2648,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7591fba6574b01446860bffb2a3787d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextReload: {fileID: 570170036}
 --- !u!114 &1907680090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2658,10 +2657,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1907680084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 616fa7b438fd2a04185c793724d36479, type: 3}
+  m_Script: {fileID: 11500000, guid: e60e62444386f9c4782dcfbf720951b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextReload: {fileID: 570170036}
+  ouvrir: {fileID: 570170036}
 --- !u!1 &1918239691
 GameObject:
   m_ObjectHideFlags: 0

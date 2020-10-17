@@ -6,7 +6,13 @@ using UnityEngine.UI;
 
 public class ChevaletManager : MonoBehaviour
 {
+    [HideInInspector]
+    public GameObject[] toile;
 
+    private void Start()
+    {
+        toile = GameObject.FindGameObjectsWithTag("toile");
+    }
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -23,6 +29,11 @@ public class ChevaletManager : MonoBehaviour
     public void ToMainScene()
     {
         SceneManager.LoadScene("Main Scene");
+    }
+
+    public void ToPaintScene()
+    {
+        SceneManager.LoadScene("Painting");
     }
 
     

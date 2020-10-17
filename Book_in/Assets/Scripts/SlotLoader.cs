@@ -18,11 +18,16 @@ public class SlotLoader : MonoBehaviour
         
     }
 
-    public void Slot1()
+    public void Slot0()
     {
         SceneManager.LoadScene("Writing");
     }
 
+
+    public void Slot1()
+    {
+        SceneManager.LoadScene("Writing1");
+    }
 
 
 }

@@ -14,6 +14,7 @@ public class KeepToile : MonoBehaviour
     void Start()
     {
         ActToile.SetActive(true);
+        toile = GameObject.FindGameObjectsWithTag("toile");
     }
     public void ToMainScene()
     {
@@ -22,13 +23,24 @@ public class KeepToile : MonoBehaviour
         
         for(int i = 0; i<10; i++)
         {
-            toile[i].SetActive(false);
+            toile[i].SetActive(true);
         }
     }
 
-    public void LoadPaintScene()
+    public void LoadPaintScene1()
     {
         toile = GameObject.FindGameObjectsWithTag("toile");
+        if (toile != null)
+        {
+            Debug.Log("une toile existe bel et bien.");
+            for (int i = 0; i < toile.Length; i++)
+            {
+                toile[i].SetActive(true);
+            }
+        }
+    }
+    public void LoadPaintScene()
+    {
         if (toile != null)
         {
             Debug.Log("une toile existe bel et bien.");

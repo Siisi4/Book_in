@@ -1,25 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.SceneManagement;
+using TMPro;
 
-public class LoadTextOnPress : MonoBehaviour
+public class Writing1Load : MonoBehaviour
 {
+
+    public TMP_Text ouvrir;
     // Start is called before the first frame update
     void Start()
     {
-        
+        ouvrir.text = PlayerPrefs.GetString("Slot1", "");
     }
-
-    
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F1))
-        {
-            SceneManager.LoadScene("SavesMenu");
-        }
+        
     }
 }

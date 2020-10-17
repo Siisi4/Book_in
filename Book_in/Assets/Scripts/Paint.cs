@@ -20,7 +20,7 @@ public class Paint : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire2"))
             Paintme();
     }
 
