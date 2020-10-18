@@ -971,17 +971,17 @@ PrefabInstance:
     - target: {fileID: 3208063554551731841, guid: df754cac69d9c0e4280e987bcaa791f9,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 24
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 3208063554551731841, guid: df754cac69d9c0e4280e987bcaa791f9,
         type: 3}
       propertyPath: m_textInfo.spaceCount
-      value: 2
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3208063554551731841, guid: df754cac69d9c0e4280e987bcaa791f9,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 3
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3208063554551731841, guid: df754cac69d9c0e4280e987bcaa791f9,
         type: 3}
@@ -997,6 +997,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208063554551731841, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_text
+      value: Ecrivez une ligne puis appuyer sur Enter pour publier.
       objectReference: {fileID: 0}
     - target: {fileID: 3208063554568099656, guid: df754cac69d9c0e4280e987bcaa791f9,
         type: 3}
@@ -2648,7 +2653,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7591fba6574b01446860bffb2a3787d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TextReload: {fileID: 570170036}
 --- !u!114 &1907680090
 MonoBehaviour:
   m_ObjectHideFlags: 0
