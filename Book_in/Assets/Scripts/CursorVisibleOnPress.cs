@@ -7,7 +7,11 @@ public class CursorVisibleOnPress : MonoBehaviour
 {
     void Update()
     {
-        // On press active - désactive le curseur
+
+        Cursor.lockState = CursorLockMode.Confined;
+
+        
+        // On press active(A) - désactive le curseur(W)
 
         if (Input.GetKeyDown(KeyCode.A))
         {
