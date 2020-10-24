@@ -8,6 +8,8 @@ TagManager:
   - test
   - Encre
   - toile
+  - Blue
+  - Red
   layers:
   - Default
   - TransparentFX
