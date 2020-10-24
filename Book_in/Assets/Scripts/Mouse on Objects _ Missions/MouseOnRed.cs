@@ -5,10 +5,12 @@ using UnityEngine.SceneManagement;
 
 public class MouseOnRed : MonoBehaviour
 {
+    public GameObject Sakuras;
     public GameObject MenuDesMissions;
     private void OnMouseDown()
     {
         MenuDesMissions.SetActive(true);
+        Sakuras.SetActive(true);
     }
 
     void MenuDesMissionsOff()
