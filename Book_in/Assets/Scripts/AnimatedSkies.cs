@@ -1,9 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class AnimatedSkies : MonoBehaviour
 {
+    public GameObject CanvasDesMissions;
     float scrollSpeed = 0.001f;
     Renderer rend;
     
@@ -18,5 +21,11 @@ public class AnimatedSkies : MonoBehaviour
     {
         float offset = Time.time * scrollSpeed;
         rend.material.SetTextureOffset("_MainTex", new Vector2(offset, 0));
+
+
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            SceneManager.LoadScene("Missions");
+        }
     }
 }
