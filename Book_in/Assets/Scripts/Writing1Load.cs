@@ -6,12 +6,25 @@ using TMPro;
 public class Writing1Load : MonoBehaviour
 {
 
-    public TMP_Text ouvrir;
+    public TMP_Text Livreecrit;
     // Start is called before the first frame update
     void Start()
     {
-        ouvrir.text = PlayerPrefs.GetString("Slot1", "");
+        Livreecrit.text = PlayerPrefs.GetString("Slot1", "");
+
+        // Je load le texte enregistré sous la clé "essay"
+
+        //Livreecrit.text = TextManager.GetBook("essay");
+
     }
+
+    // Fonction appelée quand cliquer sur "sauvegarder"
+    //public void SauvegardeLivre()
+    //{
+        // Vas sauvegarder à la clé "essay", le TMP_Text Livreecrit
+        //TextManager.SetBook("essay", Livreecrit);
+    //}
+
 
     // Update is called once per frame
     void Update()
