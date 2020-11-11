@@ -178,7 +178,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b2c848b1b4700774ba6157c241057786, type: 3}
-  m_Color: {r: 0.2264151, g: 0.2264151, b: 0.2264151, a: 1}
+  m_Color: {r: 0.05046281, g: 0.07206619, b: 0.13207549, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -497,6 +497,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 188289387}
+  - component: {fileID: 188289388}
   m_Layer: 0
   m_Name: LivreManager
   m_TagString: Untagged
@@ -518,6 +519,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &188289388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188289386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f4701b8b8631c044bb82ecb1f050d5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Livreecrit: {fileID: 570170036}
 --- !u!1 &308530874
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,6 +996,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -446
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208063553961001827, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208063553961001827, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3208063553961001827, guid: df754cac69d9c0e4280e987bcaa791f9,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -172
       objectReference: {fileID: 0}
     - target: {fileID: 3208063553968167951, guid: df754cac69d9c0e4280e987bcaa791f9,
         type: 3}
@@ -1969,7 +1998,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1907680090}
+      - m_Target: {fileID: 188289388}
         m_MethodName: SauvegardeLivre
         m_Mode: 1
         m_Arguments:
@@ -2602,7 +2631,6 @@ GameObject:
   - component: {fileID: 1907680088}
   - component: {fileID: 1907680085}
   - component: {fileID: 1907680089}
-  - component: {fileID: 1907680090}
   m_Layer: 0
   m_Name: SceneHandler
   m_TagString: SceneHandler
@@ -2678,19 +2706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7591fba6574b01446860bffb2a3787d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1907680090
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1907680084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e60e62444386f9c4782dcfbf720951b1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Livreecrit: {fileID: 0}
 --- !u!1 &1918239691
 GameObject:
   m_ObjectHideFlags: 0
