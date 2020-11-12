@@ -1528,6 +1528,7 @@ GameObject:
   - component: {fileID: 1606162426}
   - component: {fileID: 1606162428}
   - component: {fileID: 1606162429}
+  - component: {fileID: 1606162430}
   m_Layer: 0
   m_Name: LoadGame
   m_TagString: Untagged
@@ -1585,6 +1586,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b512752b3358bd419e8c9296bccc709, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1606162430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606162425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc601b2eae04fe743a260c0f8820a281, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1641017336
@@ -1654,7 +1667,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1968,7 +1981,7 @@ MonoBehaviour:
   m_fontColor32:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
