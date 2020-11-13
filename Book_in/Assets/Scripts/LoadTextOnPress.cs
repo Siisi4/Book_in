@@ -14,6 +14,11 @@ public class LoadTextOnPress : MonoBehaviour
 
     
 
+    public void LibrairieTextes()
+    {
+        SceneManager.LoadScene("SavesMenu");
+    }
+    
     // Update is called once per frame
     void Update()
     {
