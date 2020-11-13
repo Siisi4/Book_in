@@ -754,8 +754,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4278228735
+  m_fontColor: {r: 1, g: 0.5882353, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -904,11 +904,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_NormalColor: {r: 0.0627451, g: 0.0627451, b: 0.14509805, a: 0.78431374}
+    m_HighlightedColor: {r: 0.07450981, g: 0.09019608, b: 0.19215688, a: 1}
+    m_PressedColor: {r: 0.0627451, g: 0.0627451, b: 0.14509805, a: 1}
+    m_SelectedColor: {r: 0.0627451, g: 0.0627451, b: 0.14509805, a: 1}
+    m_DisabledColor: {r: 0.0627451, g: 0.0627451, b: 0.14509805, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1052,8 +1052,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4278228735
+  m_fontColor: {r: 1, g: 0.5882353, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1769,11 +1769,11 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_NormalColor: {r: 0.0627451, g: 0.0627451, b: 0.14509805, a: 0.78431374}
+    m_HighlightedColor: {r: 0.07450981, g: 0.09019608, b: 0.19215688, a: 1}
+    m_PressedColor: {r: 0.0627451, g: 0.0627451, b: 0.14509805, a: 1}
+    m_SelectedColor: {r: 0.0627451, g: 0.0627451, b: 0.14509805, a: 1}
+    m_DisabledColor: {r: 0.0627451, g: 0.0627451, b: 0.14509805, a: 1}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -1895,7 +1895,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.62881666, y: 0.115316}
   m_AnchorMax: {x: 0.62881666, y: 0.7358141}
-  m_AnchoredPosition: {x: 7, y: -30}
+  m_AnchoredPosition: {x: 6.999878, y: -30}
   m_SizeDelta: {x: 20, y: 204}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &3208063553433311697
@@ -3001,7 +3001,7 @@ GameObject:
   - component: {fileID: 3208063554655205579}
   - component: {fileID: 3208063554655205578}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: Main Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
