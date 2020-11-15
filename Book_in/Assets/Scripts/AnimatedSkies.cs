@@ -27,5 +27,10 @@ public class AnimatedSkies : MonoBehaviour
         {
             SceneManager.LoadScene("Missions");
         }
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            SceneManager.LoadScene("ItemsScene");
+        }
     }
 }

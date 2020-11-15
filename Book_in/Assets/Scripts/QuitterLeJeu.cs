@@ -7,5 +7,6 @@ public class QuitterLeJeu : MonoBehaviour
    public void Quitter()
     {
         Application.Quit();
+        Debug.Log("le jeu est sensé quitter");
     }
 }

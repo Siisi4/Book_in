@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Writing1.unity
     guid: f7c7dce99e3ef334f96a9f301dd771b3
+  - enabled: 1
+    path: Assets/Scenes/ItemsScene.unity
+    guid: daf285bbdb6c2be4aa78490845b7f830
   m_configObjects: {}
