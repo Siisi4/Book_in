@@ -905,7 +905,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tu es en train d'\xE9diter :\nLivre personnel (1)"
+  m_text: "Tu es en train d'\xE9diter :\nLivre personnel (2)"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b0ba77bd428c918489eac2d9e6c74137, type: 2}
   m_sharedMaterial: {fileID: 1919731380179551450, guid: b0ba77bd428c918489eac2d9e6c74137,
@@ -1685,7 +1685,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1907680084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f4701b8b8631c044bb82ecb1f050d5b, type: 3}
+  m_Script: {fileID: 11500000, guid: 2ef643db8470bd34685d0265792fb151, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Livreecrit: {fileID: 3208063554326391115}

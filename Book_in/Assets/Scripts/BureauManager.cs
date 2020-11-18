@@ -12,7 +12,7 @@ public class BureauManager : MonoBehaviour
         if (other.CompareTag("Player"))
         {
   
-            SceneManager.LoadScene("Writing");
+            SceneManager.LoadScene("Writing1");
         }
     }
 }

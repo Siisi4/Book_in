@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Scene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1
-    path: Assets/Scenes/Writing.unity
-    guid: 4004b57569d1f884f9e623e35f1abc71
-  - enabled: 1
     path: Assets/Scenes/Painting.unity
     guid: 234a2d74f767c3741ae20aa75ada16c3
   - enabled: 1
@@ -32,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ItemsScene.unity
     guid: daf285bbdb6c2be4aa78490845b7f830
+  - enabled: 1
+    path: Assets/Scenes/Writing2.unity
+    guid: 34497d907f416cc4d81567e449d37df2
   m_configObjects: {}

@@ -29,6 +29,10 @@ public class SlotLoader : MonoBehaviour
         SceneManager.LoadScene("Writing1");
     }
 
+    public void Slot2(){
+        SceneManager.LoadScene("Writing2");
+    }
+
     public void GoToMainScene()
     {
         SceneManager.LoadScene("Main Scene");
