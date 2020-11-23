@@ -8,6 +8,10 @@ public class ClickonLogo : MonoBehaviour
 
     public AudioSource pencilsound;
     public Animation anim;
+
+    public GameObject choixC;
+    public GameObject choisisC;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,12 +26,14 @@ public class ClickonLogo : MonoBehaviour
 
     public void PlayPencilSound(){
         pencilsound.Play() ;
+        choixC.SetActive(false);
+        choisisC.SetActive(true);
     }
 
     public void PlayGrowingAnimation(){
         anim.Play();
     }
 
-
+    
 
 }
