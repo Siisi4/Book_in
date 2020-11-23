@@ -6,7 +6,7 @@ using TMPro;
 public class Writing1Load : MonoBehaviour
 {
 
-    public TMP_Text Livreecrit;
+    public TMP_InputField Livreecrit;
     // Start is called before the first frame update
     void Start()
     {

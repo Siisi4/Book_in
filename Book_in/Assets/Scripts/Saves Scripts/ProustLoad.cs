@@ -6,7 +6,8 @@ using TMPro;
 public class ProustLoad : MonoBehaviour
 {
 
-    public TMP_Text Livreecrit;
+    public TMP_InputField Livreecrit;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,7 @@ public class ProustLoad : MonoBehaviour
         // Je load le texte enregistré sous la clé "essay"
 
         Livreecrit.text = TextManager.GetBook("proust");
+
 
     }
 

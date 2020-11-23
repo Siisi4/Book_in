@@ -71,7 +71,7 @@ public class TextManager
 
     // Appel des sauvegardes
 
-    public static void SetBook(string name, TMP_Text texte)
+    public static void SetBook(string name, TMP_InputField texte)
     {
         data.livretexte[name] = texte.text;
         Save();
