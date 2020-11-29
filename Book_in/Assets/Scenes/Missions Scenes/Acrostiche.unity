@@ -908,7 +908,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tu es en train d'\xE9diter :\nLe questionnaire de Proust."
+  m_text: "Tu es en train d'\xE9diter :\nL'acrostiche."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b0ba77bd428c918489eac2d9e6c74137, type: 2}
   m_sharedMaterial: {fileID: 1919731380179551450, guid: b0ba77bd428c918489eac2d9e6c74137,
@@ -978,10 +978,10 @@ MonoBehaviour:
   m_margin: {x: 163.44629, y: -17.64502, z: -20.610352, w: 51.538345}
   m_textInfo:
     textComponent: {fileID: 1242080500}
-    characterCount: 53
+    characterCount: 39
     spriteCount: 0
-    spaceCount: 9
-    wordCount: 9
+    spaceCount: 6
+    wordCount: 6
     linkCount: 0
     lineCount: 2
     pageCount: 1
@@ -1688,10 +1688,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1907680084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da1b756342184b44388496d133dfb34d, type: 3}
+  m_Script: {fileID: 11500000, guid: acc1afa10a0c57d42abb0012970ec8d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Livreecrit: {fileID: 4987724165540580688}
+  LivreEcrit: {fileID: 4987724165540580688}
 --- !u!1 &1918239691
 GameObject:
   m_ObjectHideFlags: 0
@@ -4683,7 +4683,7 @@ GameObject:
   - component: {fileID: 4987724165540580719}
   - component: {fileID: 4987724165540580688}
   m_Layer: 5
-  m_Name: Livre de Proust
+  m_Name: Livre l acrostiche
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4982,39 +4982,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<size=50%><color=#BFA965><b>Le questionnaire de Proust </b><i>est un test
-    de personnalit\xE9 devenu c\xE9l\xE8bre par les r\xE9ponses que Marcel Proust
-    y a apport\xE9. \nIl y a r\xE9pondu pour la premi\xE8re fois alors qu\u2019il
-    effectuait son service militaire volontaire \xE0 Orl\xE9ans. \nIl a \xE9t\xE9
-    vendu aux ench\xE8res en 2003 pour la somme de 102 000 euros.\u200B</i></color>\n\n<color=#9BA685><b>R\xE9pondez
-    au questionnaire dans la zone de votre livre de la mani\xE8re que vous souhaitez.
-    Vous pouvez d\xE9velopper certaines questions o\xF9 \xE9crire plus sur vous si
-    cela vous inspire.</b>\n\nCette mission a pour but d'en conna\xEEtre plus sur
-    l'auteur, c'est-\xE0-dire vous ! Vous pouvez copier-coller cette zone de texte
-    mais les modifications apport\xE9es ici ne seront pas enregistr\xE9es pour garder
-    la zone de consigne ! Ecrivez dans la zone d\xE9di\xE9e \xE0 cet effet (\xE0
-    gauche dans votre livre). Et surtout, n'oubliez pas de sauvegarder r\xE9guli\xE8rement.
-    \nCTRL+C pour copier et CTRL+V pour coller dans votre livre. N'oubliez pas d'adapter
-    le tout \xE0 votre style et de changer l'aspect visuel (<i>lire explications
-    sur le carr\xE9 au-dessus).</i></color>\n\n<size=100%><#708C84><u>Le questionnaire
-    :\n</u></size></color>\n<#BF9460><size=50%>\n1. Ma vertu pr\xE9f\xE9r\xE9e\n2.
-    Le principal trait de mon caract\xE8re\n3. La qualit\xE9 que je pr\xE9f\xE8re
-    chez les hommes\n4. La qualit\xE9 que je pr\xE9f\xE8re chez les femmes\n5. Mon
-    principal d\xE9faut\n6. Ma principale qualit\xE9\n7. Ce que j'appr\xE9cie le
-    plus chez mes amis\n8. Mon occupation pr\xE9f\xE9r\xE9e\n9. Mon r\xEAve de bonheur\n10.
-    Quel serait mon plus grand malheur ?\n11. A part moi-m\xEAme qui voudrais-je
-    \xEAtre ?\n12. Le pays o\xF9 j'aimerais vivre\n13. La couleur que je pr\xE9f\xE8re\n14.
-    La fleur que je pr\xE9f\xE8re\n15. L'oiseau que je pr\xE9f\xE8re\n16. Mes auteurs
-    favoris en prose\n17. Mes po\xE8tes pr\xE9f\xE9r\xE9s\n18. Mes h\xE9ros dans
-    la fiction\n19. Mes h\xE9ro\xEFnes favorites dans la fiction\n20. Mes compositeurs
-    pr\xE9f\xE9r\xE9s\n21. Mes peintres pr\xE9f\xE9r\xE9s\n22. Mes h\xE9ros dans
-    la vie r\xE9elle\n23. Mes h\xE9ro\xEFnes pr\xE9f\xE9r\xE9es dans la vie r\xE9elle
-    \n24. Mes h\xE9ros dans l'histoire\n25. Ce que je d\xE9teste le plus\n26. Le
-    personnage historique que je d\xE9teste le plus\n27. Les faits historiques que
-    je d\xE9teste le plus\n28. Le fait militaire que j'estime le plus\n29. La r\xE9forme
-    que j'estime le plus\n30. Le don de la nature que je voudrais avoir\n31. Comment
-    j'aimerais mourir\n32. L'\xE9tat pr\xE9sent de mon esprit\n33. La faute qui m'inspire
-    le plus d'indulgence\n34. Ma devise\n</size=50%></color>\u200B"
+  m_text: "<u><b>L'acrostiche.</u></b>\n<size=50%>\n\n</size>\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5059,7 +5027,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 1020
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -5083,12 +5051,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6944380729549631121}
-    characterCount: 2194
+    characterCount: 17
     spriteCount: 0
-    spaceCount: 394
-    wordCount: 382
+    spaceCount: 3
+    wordCount: 1
     linkCount: 0
-    lineCount: 57
+    lineCount: 4
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -5536,39 +5504,12 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.050980393, g: 0.050980393, b: 0.050980393, a: 1}
-  m_Text: "<size=50%><color=#BFA965><b>Le questionnaire de Proust </b><i>est un test
-    de personnalit\xE9 devenu c\xE9l\xE8bre par les r\xE9ponses que Marcel Proust
-    y a apport\xE9. \nIl y a r\xE9pondu pour la premi\xE8re fois alors qu\u2019il
-    effectuait son service militaire volontaire \xE0 Orl\xE9ans. \nIl a \xE9t\xE9
-    vendu aux ench\xE8res en 2003 pour la somme de 102 000 euros.\u200B</i></color>\n\n<color=#9BA685><b>R\xE9pondez
-    au questionnaire dans la zone de votre livre de la mani\xE8re que vous souhaitez.
-    Vous pouvez d\xE9velopper certaines questions o\xF9 \xE9crire plus sur vous si
-    cela vous inspire.</b>\n\nCette mission a pour but d'en conna\xEEtre plus sur
-    l'auteur, c'est-\xE0-dire vous ! Vous pouvez copier-coller cette zone de texte
-    mais les modifications apport\xE9es ici ne seront pas enregistr\xE9es pour garder
-    la zone de consigne ! Ecrivez dans la zone d\xE9di\xE9e \xE0 cet effet (\xE0
-    gauche dans votre livre). Et surtout, n'oubliez pas de sauvegarder r\xE9guli\xE8rement.
-    \nCTRL+C pour copier et CTRL+V pour coller dans votre livre. N'oubliez pas d'adapter
-    le tout \xE0 votre style et de changer l'aspect visuel (<i>lire explications
-    sur le carr\xE9 au-dessus).</i></color>\n\n<size=100%><#708C84><u>Le questionnaire
-    :\n</u></size></color>\n<#BF9460><size=50%>\n1. Ma vertu pr\xE9f\xE9r\xE9e\n2.
-    Le principal trait de mon caract\xE8re\n3. La qualit\xE9 que je pr\xE9f\xE8re
-    chez les hommes\n4. La qualit\xE9 que je pr\xE9f\xE8re chez les femmes\n5. Mon
-    principal d\xE9faut\n6. Ma principale qualit\xE9\n7. Ce que j'appr\xE9cie le
-    plus chez mes amis\n8. Mon occupation pr\xE9f\xE9r\xE9e\n9. Mon r\xEAve de bonheur\n10.
-    Quel serait mon plus grand malheur ?\n11. A part moi-m\xEAme qui voudrais-je
-    \xEAtre ?\n12. Le pays o\xF9 j'aimerais vivre\n13. La couleur que je pr\xE9f\xE8re\n14.
-    La fleur que je pr\xE9f\xE8re\n15. L'oiseau que je pr\xE9f\xE8re\n16. Mes auteurs
-    favoris en prose\n17. Mes po\xE8tes pr\xE9f\xE9r\xE9s\n18. Mes h\xE9ros dans
-    la fiction\n19. Mes h\xE9ro\xEFnes favorites dans la fiction\n20. Mes compositeurs
-    pr\xE9f\xE9r\xE9s\n21. Mes peintres pr\xE9f\xE9r\xE9s\n22. Mes h\xE9ros dans
-    la vie r\xE9elle\n23. Mes h\xE9ro\xEFnes pr\xE9f\xE9r\xE9es dans la vie r\xE9elle
-    \n24. Mes h\xE9ros dans l'histoire\n25. Ce que je d\xE9teste le plus\n26. Le
-    personnage historique que je d\xE9teste le plus\n27. Les faits historiques que
-    je d\xE9teste le plus\n28. Le fait militaire que j'estime le plus\n29. La r\xE9forme
-    que j'estime le plus\n30. Le don de la nature que je voudrais avoir\n31. Comment
-    j'aimerais mourir\n32. L'\xE9tat pr\xE9sent de mon esprit\n33. La faute qui m'inspire
-    le plus d'indulgence\n34. Ma devise\n</size=50%></color>"
+  m_Text: '<u><b>L''acrostiche.</u></b>
+
+    <size=50%>
+
+
+    </size>'
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -5659,8 +5600,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6944380729518645742}
   m_HandleRect: {fileID: 6944380729518645729}
   m_Direction: 3
-  m_Value: 0
-  m_Size: 0.37204415
+  m_Value: -0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

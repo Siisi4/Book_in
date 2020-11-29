@@ -35,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Missions Scenes/Proust.unity
     guid: 265268ab8a759a746bdb5513c0182323
+  - enabled: 1
+    path: Assets/Scenes/Missions Scenes/Acrostiche.unity
+    guid: 38a96d6317f7cee46a24db25bcf7470f
   m_configObjects: {}
