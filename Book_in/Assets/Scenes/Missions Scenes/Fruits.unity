@@ -640,7 +640,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -669,7 +669,7 @@ MonoBehaviour:
     spaceCount: 2
     wordCount: 3
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -725,7 +725,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3208063554655205577}
-  m_RootOrder: 8
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.0015208333, y: 0.878}
   m_AnchorMax: {x: 0.13752085, y: 0.9396669}
@@ -751,7 +751,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tu es en train d'\xE9diter :\nL'acrostiche."
+  m_text: "Tu es en train d'\xE9diter :\nLes fruits bavards."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b0ba77bd428c918489eac2d9e6c74137, type: 2}
   m_sharedMaterial: {fileID: 1919731380179551450, guid: b0ba77bd428c918489eac2d9e6c74137,
@@ -797,7 +797,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 15
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -821,12 +821,12 @@ MonoBehaviour:
   m_margin: {x: 163.44629, y: -17.64502, z: -20.610352, w: 51.538345}
   m_textInfo:
     textComponent: {fileID: 1242080500}
-    characterCount: 39
+    characterCount: 45
     spriteCount: 0
-    spaceCount: 6
-    wordCount: 6
+    spaceCount: 8
+    wordCount: 8
     linkCount: 0
-    lineCount: 2
+    lineCount: 4
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -884,7 +884,7 @@ RectTransform:
   m_Children:
   - {fileID: 1447726260}
   m_Father: {fileID: 3208063554655205577}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.65500003, y: 0.58500004}
   m_AnchorMax: {x: 0.80752087, y: 0.627185}
@@ -1095,7 +1095,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 0
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1124,7 +1124,7 @@ MonoBehaviour:
     spaceCount: 0
     wordCount: 1
     linkCount: 0
-    lineCount: 1
+    lineCount: 4
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -1252,7 +1252,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: -1
+  m_firstOverflowCharacterIndex: 16
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -1281,7 +1281,7 @@ MonoBehaviour:
     spaceCount: 5
     wordCount: 4
     linkCount: 0
-    lineCount: 1
+    lineCount: 2
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -1339,7 +1339,7 @@ RectTransform:
   m_Children:
   - {fileID: 1592857539}
   m_Father: {fileID: 3208063554655205577}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.7574376, y: 0.8571482}
   m_AnchorMax: {x: 0.92977077, y: 0.9563335}
@@ -1542,7 +1542,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1907680084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: acc1afa10a0c57d42abb0012970ec8d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 11d42c938171b2545899cca08bbc2572, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   LivreEcrit: {fileID: 4987724165540580688}
@@ -1696,7 +1696,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3208063554655205577}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.86, y: 0}
   m_AnchorMax: {x: 0.984, y: 0.07834448}
@@ -1735,7 +1735,7 @@ RectTransform:
   m_Children:
   - {fileID: 1220173891}
   m_Father: {fileID: 3208063554655205577}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.83752084, y: 0.58500004}
   m_AnchorMax: {x: 0.99116665, y: 0.627185}
@@ -1885,7 +1885,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7013903250854057, guid: ba8bf66e53789604781c921561465e36, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 7013903250854057, guid: ba8bf66e53789604781c921561465e36, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3135,11 +3135,11 @@ RectTransform:
   - {fileID: 3208063554382727318}
   - {fileID: 3208063553426310845}
   - {fileID: 844774734}
+  - {fileID: 1242080499}
   - {fileID: 1918239694}
   - {fileID: 1268803097}
   - {fileID: 1931395325}
   - {fileID: 1799915976}
-  - {fileID: 1242080499}
   - {fileID: 4987724165540580717}
   - {fileID: 6944380730683517140}
   - {fileID: 852390905}
@@ -4657,7 +4657,7 @@ GameObject:
   - component: {fileID: 4987724165540580719}
   - component: {fileID: 4987724165540580688}
   m_Layer: 5
-  m_Name: Livre l acrostiche
+  m_Name: Livre Les fruits bavards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4956,23 +4956,21 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<#04B2D9><u><b><align=center> L'acrostiche.</u></b></color></align>\n<size=50%>\nUn
-    acrostiche est un texte po\xE9tique dont les premi\xE8res lettres de chaque vers
-    ( ligne ) forment un mot lorsqu'on les lit de haut en bas. \n\n<b><#F29199>B</color></b>ien
-    au-d\xE9l\xE0 du jeu et\n<b><#F29199>O</color></b>bjet de curiosit\xE9,\n<b><#F29199>O</color></b>\xF9
-    vous pouvez trouver en l'\xE9criture la beaut\xE9\n<b><#F29199>K</color></b>anji
-    ? Si vous voulez .. !\n\n<b><#F29199>I</color></b>nciter les geeks \xE0 aimer\n<b><#F29199>N</color></b>a\xEEtre
-    avec l'art de l'\xE9criture.\n\n<#F29199>Vous pouvez voir ci-dessous en rose
-    \xE9crit \"BOOK IN\" lorsque vous lisez le texte \xE0 la verticale.</color>\n\nVotre
-    texte n'est pas oblig\xE9 de rimer ou d'avoir un sens tr\xE8s particulier. Laissez-vous
-    juste emporter par les lettres ..\n\nCouramment, les auteurs d\xE9crivent dans
-    le corps du texte le mot form\xE9 en acrostiche. Donc votre mot peut \xEAtre
-    le th\xE8me principal du texte ou non, c'est \xE0 vous de d\xE9cider de ce que
-    vous souhaitez \xE9crire. \n\nN'h\xE9sitez pas \xE0 revenir dans cette mission
-    d'acrostiche et en \xE9crire plusieurs lorsque vous manquez d'inspiration car
-    c'est un exercice tr\xE8s captivant de se forcer \xE0 \xE9crire en partant de
-    lettres donn\xE9es. Cela pourrait vous aider \xE0 \"trouver vos mots\" pour d'autres
-    textes ! \n</size>\u200B"
+  m_text: "<#C1D90D><u><b><align=center> Les fruits bavards.</u></b></color></align>\n<size=50%>\n<#F227BC>Cet
+    exercice est simple ! Tu dois tout simplement inventer une conversation entre
+    des fruits / l\xE9gumes. </color>\n\n<#D9304F>Utilise ton imagination pour inventer
+    un sc\xE9nario. Il faut d'abord poser un lieu et un temps. Est-ce que tu es dans
+    le pass\xE9 ? Le futur ? Une \xE9poque imaginaire ? \nEnsuite, introduis tes
+    personnages. De quels fruits / l\xE9gumes s'agit-il ? Qu'ont-ils de particulier
+    ? Peuvent-ils faire des choses que de simple fruits ne peuvent normalement pas
+    faire dans le monde r\xE9el ? Y a-t-il d'autres personnages que les fruits bavards,
+    comme des \xEAtre humains par ex. ? Peuvent-ils entendre les fruits ? Vivent-ils
+    en harmonie ?  </color>\n<#F27649>\nLe plus difficile dans cet exercice est de
+    bien fix\xE9 son environnement et les circonstances. Ensuite, tu peux \xE9crire
+    ton histoire autour de ce que tu as pos\xE9. Tu peux \xE9galement d\xE9voiler
+    certaines d\xE9tails aux lecteurs petit \xE0 petit pour cr\xE9er un effet de
+    surprise. Ex. : les fruits rencontrent des humains tard dans leur aventure et
+    on ne sait pas vraiment comment cela va se passer. </color>\n</size>\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5017,7 +5015,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 624
+  m_firstOverflowCharacterIndex: 330
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -5041,12 +5039,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6944380729549631121}
-    characterCount: 1034
+    characterCount: 1031
     spriteCount: 0
-    spaceCount: 189
-    wordCount: 172
+    spaceCount: 184
+    wordCount: 163
     linkCount: 0
-    lineCount: 28
+    lineCount: 31
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -5494,23 +5492,21 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.16189036, g: 0.20466153, b: 0.3207547, a: 1}
-  m_Text: "<#04B2D9><u><b><align=center> L'acrostiche.</u></b></color></align>\n<size=50%>\nUn
-    acrostiche est un texte po\xE9tique dont les premi\xE8res lettres de chaque vers
-    ( ligne ) forment un mot lorsqu'on les lit de haut en bas. \n\n<b><#F29199>B</color></b>ien
-    au-d\xE9l\xE0 du jeu et\n<b><#F29199>O</color></b>bjet de curiosit\xE9,\n<b><#F29199>O</color></b>\xF9
-    vous pouvez trouver en l'\xE9criture la beaut\xE9\n<b><#F29199>K</color></b>anji
-    ? Si vous voulez .. !\n\n<b><#F29199>I</color></b>nciter les geeks \xE0 aimer\n<b><#F29199>N</color></b>a\xEEtre
-    avec l'art de l'\xE9criture.\n\n<#F29199>Vous pouvez voir ci-dessous en rose
-    \xE9crit \"BOOK IN\" lorsque vous lisez le texte \xE0 la verticale.</color>\n\nVotre
-    texte n'est pas oblig\xE9 de rimer ou d'avoir un sens tr\xE8s particulier. Laissez-vous
-    juste emporter par les lettres ..\n\nCouramment, les auteurs d\xE9crivent dans
-    le corps du texte le mot form\xE9 en acrostiche. Donc votre mot peut \xEAtre
-    le th\xE8me principal du texte ou non, c'est \xE0 vous de d\xE9cider de ce que
-    vous souhaitez \xE9crire. \n\nN'h\xE9sitez pas \xE0 revenir dans cette mission
-    d'acrostiche et en \xE9crire plusieurs lorsque vous manquez d'inspiration car
-    c'est un exercice tr\xE8s captivant de se forcer \xE0 \xE9crire en partant de
-    lettres donn\xE9es. Cela pourrait vous aider \xE0 \"trouver vos mots\" pour d'autres
-    textes ! \n</size>"
+  m_Text: "<#C1D90D><u><b><align=center> Les fruits bavards.</u></b></color></align>\n<size=50%>\n<#F227BC>Cet
+    exercice est simple ! Tu dois tout simplement inventer une conversation entre
+    des fruits / l\xE9gumes. </color>\n\n<#D9304F>Utilise ton imagination pour inventer
+    un sc\xE9nario. Il faut d'abord poser un lieu et un temps. Est-ce que tu es dans
+    le pass\xE9 ? Le futur ? Une \xE9poque imaginaire ? \nEnsuite, introduis tes
+    personnages. De quels fruits / l\xE9gumes s'agit-il ? Qu'ont-ils de particulier
+    ? Peuvent-ils faire des choses que de simple fruits ne peuvent normalement pas
+    faire dans le monde r\xE9el ? Y a-t-il d'autres personnages que les fruits bavards,
+    comme des \xEAtre humains par ex. ? Peuvent-ils entendre les fruits ? Vivent-ils
+    en harmonie ?  </color>\n<#F27649>\nLe plus difficile dans cet exercice est de
+    bien fix\xE9 son environnement et les circonstances. Ensuite, tu peux \xE9crire
+    ton histoire autour de ce que tu as pos\xE9. Tu peux \xE9galement d\xE9voiler
+    certaines d\xE9tails aux lecteurs petit \xE0 petit pour cr\xE9er un effet de
+    surprise. Ex. : les fruits rencontrent des humains tard dans leur aventure et
+    on ne sait pas vraiment comment cela va se passer. </color>\n</size>"
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -5602,7 +5598,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 6944380729518645729}
   m_Direction: 3
   m_Value: 0
-  m_Size: 0.72189766
+  m_Size: 0.3755552
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

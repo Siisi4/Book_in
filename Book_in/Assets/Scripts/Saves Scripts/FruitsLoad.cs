@@ -3,20 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class AcrosticheLoad : MonoBehaviour
+public class FruitsLoad : MonoBehaviour
 {
-
     public TMP_InputField LivreEcrit;
     // Start is called before the first frame update
     void Start()
     {
-        LivreEcrit.text = TextManager.GetBook("acrostiche");
+        LivreEcrit.text = TextManager.GetBook("fruits");
     }
 
-    public void SauvegardeLivre()
+     public void SauvegardeLivre()
     {
         // Vas sauvegarder à la clé "essay", le TMP_Text Livreecrit
-        TextManager.SetBook("acrostiche", LivreEcrit);
+        TextManager.SetBook("fruits", LivreEcrit);
     }
-   
+    
 }
