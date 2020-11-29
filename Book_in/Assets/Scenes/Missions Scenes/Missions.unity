@@ -3483,7 +3483,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1035354448}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1656899828}
+        m_MethodName: LoadProust
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1035354448
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5324,6 +5335,7 @@ GameObject:
   - component: {fileID: 1656899825}
   - component: {fileID: 1656899826}
   - component: {fileID: 1656899827}
+  - component: {fileID: 1656899828}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -5451,6 +5463,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 34dd4d253ffbf894485508ca07b37de8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1656899828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1656899820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f14d581112694d4c85082c8fe71a6c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1692330699

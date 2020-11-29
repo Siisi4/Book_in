@@ -33,6 +33,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Writing2.unity
     guid: 34497d907f416cc4d81567e449d37df2
   - enabled: 1
-    path: Assets/Scenes/Proust.unity
+    path: Assets/Scenes/Missions Scenes/Proust.unity
     guid: 265268ab8a759a746bdb5513c0182323
   m_configObjects: {}
