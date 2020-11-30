@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: c9cfdda9a18aae84fba4c31564f0471d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Mini Story
+  fontNames:
+  - Mini Story
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c95e5e8723598224ebf30b0ad8386ce1, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
