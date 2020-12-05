@@ -7,7 +7,11 @@ public class ClickonLogo : MonoBehaviour
 {
 
     public AudioSource pencilsound;
-    public Animation anim;
+    public Animation anim1;
+    public Animation anim2;
+    public Animation anim3;
+    public Animation anim4;
+    public Animation anim5;
 
     public GameObject choixC;
     public GameObject choisisC;
@@ -30,10 +34,20 @@ public class ClickonLogo : MonoBehaviour
         choisisC.SetActive(true);
     }
 
-    public void PlayGrowingAnimation(){
-        anim.Play();
+    public void PlayGrowingAnimation1(){
+        anim1.Play();
+    }
+    public void PlayGrowingAnimation2(){
+        anim2.Play();
+    }
+    public void PlayGrowingAnimation3(){
+        anim3.Play();
     }
 
-    
-
+    public void PlayGrowingAnimation4(){
+        anim4.Play();
+    }
+    public void PlayGrowingAnimation5(){
+        anim5.Play();
+    }
 }
