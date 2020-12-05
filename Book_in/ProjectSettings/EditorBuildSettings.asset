@@ -38,4 +38,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Missions Scenes/Acrostiche.unity
     guid: 38a96d6317f7cee46a24db25bcf7470f
+  - enabled: 1
+    path: Assets/Scenes/Missions Scenes/Fruits.unity
+    guid: 6b03cfb35f5cd02458ecdf6858a05190
+  - enabled: 1
+    path: Assets/Scenes/Missions Scenes/Tableau.unity
+    guid: 38114769a209bcd4db1d358f4aca35f0
   m_configObjects: {}
