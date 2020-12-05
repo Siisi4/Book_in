@@ -44,4 +44,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Missions Scenes/Tableau.unity
     guid: 38114769a209bcd4db1d358f4aca35f0
+  - enabled: 1
+    path: Assets/Scenes/Missions Scenes/Personnal 1.unity
+    guid: 27625f1f4a15bf847b5a2791c97e710f
+  - enabled: 1
+    path: Assets/Scenes/Missions Scenes/Personnal 2.unity
+    guid: b85630b26388c1145992491176f9736d
+  - enabled: 1
+    path: Assets/Scenes/Missions Scenes/Personnal 3.unity
+    guid: d5735ac8da5da1b479d9ceab8cf45e04
+  - enabled: 1
+    path: Assets/Scenes/Missions Scenes/Personnal 4.unity
+    guid: 5a090c69a3125024c8d52c85c5a6df8b
+  - enabled: 1
+    path: Assets/Scenes/Missions Scenes/Personnal 5.unity
+    guid: b8c64276fd6016f4c94961c71cbbc044
   m_configObjects: {}

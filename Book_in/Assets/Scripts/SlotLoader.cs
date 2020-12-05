@@ -18,19 +18,25 @@ public class SlotLoader : MonoBehaviour
         
     }
 
-    public void Slot0()
+    public void Livre1Load()
     {
-        SceneManager.LoadScene("Writing");
+        SceneManager.LoadScene("Personnal 1");
     }
 
 
-    public void Slot1()
+    public void Livre2Load()
     {
-        SceneManager.LoadScene("Writing1");
+        SceneManager.LoadScene("Personnal 2");
     }
 
-    public void Slot2(){
-        SceneManager.LoadScene("Writing2");
+    public void Livre3Load(){
+        SceneManager.LoadScene("Personnal 3");
+    }
+    public void Livre4Load(){
+        SceneManager.LoadScene("Personnal 4");
+    }
+    public void Livre5Load(){
+        SceneManager.LoadScene("Personnal 5");
     }
 
     public void GoToMainScene()
