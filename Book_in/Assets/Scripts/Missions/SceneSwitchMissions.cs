@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class SceneSwitchMissions : MonoBehaviour
 {
+    public void LoadMissions(){
+        SceneManager.LoadScene("Missions");
+    }
     public void LoadProust(){
         SceneManager.LoadScene("Proust");
     }
@@ -17,5 +20,6 @@ public class SceneSwitchMissions : MonoBehaviour
     public void LoadTableau(){
         SceneManager.LoadScene("Tableau");
     }
+    
     
 }
