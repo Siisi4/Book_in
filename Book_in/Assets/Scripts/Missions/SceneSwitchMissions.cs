@@ -23,6 +23,9 @@ public class SceneSwitchMissions : MonoBehaviour
     public void LoadTableau(){
         SceneManager.LoadScene("Tableau");
     }
+    public void LoadAnimaux(){
+        SceneManager.LoadScene("Animaux");
+    }
     
     
 }
