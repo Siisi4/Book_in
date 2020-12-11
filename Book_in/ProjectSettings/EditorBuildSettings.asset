@@ -62,4 +62,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Missions Scenes/Animaux.unity
     guid: 8055fb9e16094494f98ed17d29ea2177
+  - enabled: 1
+    path: Assets/Scenes/Missions Scenes/UnChat.unity
+    guid: 8fe4a5c665d7f344880ee54d3c19e2ef
   m_configObjects: {}

@@ -26,6 +26,9 @@ public class SceneSwitchMissions : MonoBehaviour
     public void LoadAnimaux(){
         SceneManager.LoadScene("Animaux");
     }
+    public void LoadChat(){
+        SceneManager.LoadScene("UnChat");
+    }
     
     
 }

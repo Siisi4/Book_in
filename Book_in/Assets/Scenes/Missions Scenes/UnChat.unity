@@ -926,7 +926,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Tu es en train d'\xE9diter :\nMes animaux"
+  m_text: "Tu es en train d'\xE9diter :\nSi j'\xE9tais un chat ..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b0ba77bd428c918489eac2d9e6c74137, type: 2}
   m_sharedMaterial: {fileID: 1919731380179551450, guid: b0ba77bd428c918489eac2d9e6c74137,
@@ -996,10 +996,10 @@ MonoBehaviour:
   m_margin: {x: 163.44629, y: -17.64502, z: -20.610352, w: 51.538345}
   m_textInfo:
     textComponent: {fileID: 1242080500}
-    characterCount: 37
+    characterCount: 48
     spriteCount: 0
-    spaceCount: 7
-    wordCount: 7
+    spaceCount: 10
+    wordCount: 9
     linkCount: 0
     lineCount: 2
     pageCount: 1
@@ -1718,7 +1718,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1907680084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff5bce0edef28d04b9305df2c94dc314, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ced8d0bd663b7e45b36b046ab98be0c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   MonLivre: {fileID: 4987724165540580688}
@@ -4846,7 +4846,7 @@ GameObject:
   - component: {fileID: 4987724165540580719}
   - component: {fileID: 4987724165540580688}
   m_Layer: 5
-  m_Name: Livre sur les animaux
+  m_Name: Livre si jetais chat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5145,43 +5145,16 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<#152FBF><u><b><align=center>Mes animaux.</u></b></color></align>\n<size=50%>\n<#F26DB6>Invente
-    des \xEAtres vivants sortant tout droit de ton imagination.\nCe livre est ton
-    recueil d'animaux imaginaires.\n\n</color>\n<#D96C75>Fais une liste avec les
-    noms de tes animaux sous forme de titres. \nTu dois d\xE9crire le physique de
-    chaque animal, ses capacit\xE9s, ses attributs, ...\nIls peuvent \xEAtre l'assemblage
-    de plusieurs animaux qui existent d\xE9j\xE0 ou des \xEAtres fantastiques invent\xE9s.
-    A toi de cr\xE9er tes animaux .. un peu comme des <i>Pok\xE9mons</i> !\n</color>\nExemple
-    d'un de mes animaux : \n\n<size=60%><#D99B77><u>Le <i>fl\xE9pin</i>, le lapin
-    \xE0 queue de fl\xE9au d'arme</u></size>\n<i>Le fl\xE9pin (m.), la fl\xE9pine
-    (f.). </color></i>\n<#F2CEAE>\nLe fl\xE9pin fait partie de la famille des l\xE9porid\xE9s
-    (regroupant les lapins et les li\xE8vres) g\xE9ants, ils mesurent environs 1m20
-    pour les m\xE2les et 1m80 pour les femelles. \n\n<i>Caract\xE9ristiques physiques
-    et description g\xE9n\xE9rale :</i>\nLes fl\xE9pins sont des chasseurs/pr\xE9dateurs
-    vivant principalement pr\xE8s des lacs et des rivi\xE8res en Asie du Sud ( surtout
-    en Tha\xEFlande et en Indon\xE9sie). D'apparence ressemblant \xE0 des lapins
-    de tr\xE8s grandes tailles, ce qui les diff\xE9rencie de ces derniers \xE9tant
-    leur queue ayant la forme d'un fl\xE9au d'arme.\n\n<i>Pelage et queue :</i>\nLeur
-    pelage est similaire \xE0 ceux des lapins. Cependant, ils n'existent que sous
-    un pelage de couleur brun\xE2tre (tous les tons de bruns de clairs \xE0 fonc\xE9s)
-    avec de petites t\xE2ches noirs ou bruns fonc\xE9s sur leurs oreilles et parfois
-    sur leurs visages.\nLes fl\xE9pines ayant le visages couverts de t\xE2ches noires
-    sont souvent les femelles alphas.\n\nCe qui constitue le 'fl\xE9au' de leur queue
-    est un prolongement de leur os qui forment de petites boules \xE0 l'extr\xE9mit\xE9
-    de la queue. \nChez les m\xE2les, ce fl\xE9au est fait de boules alors que chez
-    les femelles, plus f\xE9roces, le fl\xE9au est plus sous forme de 'piques'.\n\n<i>Nourriture
-    :</i>\nLes principales proies des fl\xE9pins sont les loutres et les singes de
-    tailles moyennes car ce sont des animaux facilement trouvables dans les rivi\xE8res
-    de l'Asie du Sud. \nLes femelles chassent en groupe et encerclent en g\xE9n\xE9ral
-    leurs proies \xE0 la nuit tomb\xE9e alors que les m\xE2les creusent les nids
-    se servant de leur queue \"\xE0 boules\" pour s'assurer de la s\xE9curit\xE9
-    du troupeau.  \n</color>\n\nEnfin bref, vous avez compris comment faire. Je pourrais
-    d\xE9crire mes grands m\xE9chants lapins encore longtemps, cependant c'est \xE0
-    vous d'inventer vos propres animaux ! \nSi vos animaux ont disparu, ou vivent
-    dans un autre 'monde', pr\xE9cisez tout ce que vous voulez et laissez-vous emporter
-    par votre imagination.\n\n<#F2F2F2>Lorsque je cr\xE9erais un site internet pour
-    <i>Book'in</i> dans l'avenir, nous pourrions partager nos diff\xE9rentes cr\xE9ations
-    ! </color>\n</size>\u200B"
+  m_text: "<#F2D194><u><b><align=center>Si j'\xE9tais un chat...</u></b></color></align>\n<size=50%>\n<#BFB9AE>Comment
+    aurait \xE9t\xE9 votre vie si vous \xE9tiez un chat ?\n\n</color>\n<#A65729>Construisez
+    votre histoire en \xE9crivant \xE0 la premi\xE8re personne du singulier, donc
+    en \"je\". Vous pouvez d\xE9crire une journ\xE9e typique, des petites p\xE9rip\xE9ties
+    du quotidien vues par les yeux d'un chat. \nN'h\xE9sitez pas \xE0 construire
+    la syntaxe comme vous imaginez le chat parler. Ajoutez-y du style pour qu'on
+    sache qu'il s'agit d'un chat.\nAventurier voyageant de toit en toit ? Ou grognon
+    qui attend d'\xEAtre nourri ? Chat abandonn\xE9 ou chat de maison fugitif d\xE9couvrant
+    sa libert\xE9 ?\n \n</color>\n<align=center><#BFB9AE>D\xE9crivez votre vie de
+    chat !</color></align>\n</size>\u200B"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5226,7 +5199,7 @@ MonoBehaviour:
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
-  m_firstOverflowCharacterIndex: 698
+  m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
   m_isTextTruncated: 0
@@ -5250,12 +5223,12 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 6944380729549631121}
-    characterCount: 2512
+    characterCount: 584
     spriteCount: 0
-    spaceCount: 440
-    wordCount: 408
+    spaceCount: 106
+    wordCount: 94
     linkCount: 0
-    lineCount: 60
+    lineCount: 16
     pageCount: 1
     materialCount: 1
   m_isUsingLegacyAnimationComponent: 0
@@ -5703,43 +5676,16 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.16189036, g: 0.20466153, b: 0.3207547, a: 1}
-  m_Text: "<#152FBF><u><b><align=center>Mes animaux.</u></b></color></align>\n<size=50%>\n<#F26DB6>Invente
-    des \xEAtres vivants sortant tout droit de ton imagination.\nCe livre est ton
-    recueil d'animaux imaginaires.\n\n</color>\n<#D96C75>Fais une liste avec les
-    noms de tes animaux sous forme de titres. \nTu dois d\xE9crire le physique de
-    chaque animal, ses capacit\xE9s, ses attributs, ...\nIls peuvent \xEAtre l'assemblage
-    de plusieurs animaux qui existent d\xE9j\xE0 ou des \xEAtres fantastiques invent\xE9s.
-    A toi de cr\xE9er tes animaux .. un peu comme des <i>Pok\xE9mons</i> !\n</color>\nExemple
-    d'un de mes animaux : \n\n<size=60%><#D99B77><u>Le <i>fl\xE9pin</i>, le lapin
-    \xE0 queue de fl\xE9au d'arme</u></size>\n<i>Le fl\xE9pin (m.), la fl\xE9pine
-    (f.). </color></i>\n<#F2CEAE>\nLe fl\xE9pin fait partie de la famille des l\xE9porid\xE9s
-    (regroupant les lapins et les li\xE8vres) g\xE9ants, ils mesurent environs 1m20
-    pour les m\xE2les et 1m80 pour les femelles. \n\n<i>Caract\xE9ristiques physiques
-    et description g\xE9n\xE9rale :</i>\nLes fl\xE9pins sont des chasseurs/pr\xE9dateurs
-    vivant principalement pr\xE8s des lacs et des rivi\xE8res en Asie du Sud ( surtout
-    en Tha\xEFlande et en Indon\xE9sie). D'apparence ressemblant \xE0 des lapins
-    de tr\xE8s grandes tailles, ce qui les diff\xE9rencie de ces derniers \xE9tant
-    leur queue ayant la forme d'un fl\xE9au d'arme.\n\n<i>Pelage et queue :</i>\nLeur
-    pelage est similaire \xE0 ceux des lapins. Cependant, ils n'existent que sous
-    un pelage de couleur brun\xE2tre (tous les tons de bruns de clairs \xE0 fonc\xE9s)
-    avec de petites t\xE2ches noirs ou bruns fonc\xE9s sur leurs oreilles et parfois
-    sur leurs visages.\nLes fl\xE9pines ayant le visages couverts de t\xE2ches noires
-    sont souvent les femelles alphas.\n\nCe qui constitue le 'fl\xE9au' de leur queue
-    est un prolongement de leur os qui forment de petites boules \xE0 l'extr\xE9mit\xE9
-    de la queue. \nChez les m\xE2les, ce fl\xE9au est fait de boules alors que chez
-    les femelles, plus f\xE9roces, le fl\xE9au est plus sous forme de 'piques'.\n\n<i>Nourriture
-    :</i>\nLes principales proies des fl\xE9pins sont les loutres et les singes de
-    tailles moyennes car ce sont des animaux facilement trouvables dans les rivi\xE8res
-    de l'Asie du Sud. \nLes femelles chassent en groupe et encerclent en g\xE9n\xE9ral
-    leurs proies \xE0 la nuit tomb\xE9e alors que les m\xE2les creusent les nids
-    se servant de leur queue \"\xE0 boules\" pour s'assurer de la s\xE9curit\xE9
-    du troupeau.  \n</color>\n\nEnfin bref, vous avez compris comment faire. Je pourrais
-    d\xE9crire mes grands m\xE9chants lapins encore longtemps, cependant c'est \xE0
-    vous d'inventer vos propres animaux ! \nSi vos animaux ont disparu, ou vivent
-    dans un autre 'monde', pr\xE9cisez tout ce que vous voulez et laissez-vous emporter
-    par votre imagination.\n\n<#F2F2F2>Lorsque je cr\xE9erais un site internet pour
-    <i>Book'in</i> dans l'avenir, nous pourrions partager nos diff\xE9rentes cr\xE9ations
-    ! </color>\n</size>"
+  m_Text: "<#F2D194><u><b><align=center>Si j'\xE9tais un chat...</u></b></color></align>\n<size=50%>\n<#BFB9AE>Comment
+    aurait \xE9t\xE9 votre vie si vous \xE9tiez un chat ?\n\n</color>\n<#A65729>Construisez
+    votre histoire en \xE9crivant \xE0 la premi\xE8re personne du singulier, donc
+    en \"je\". Vous pouvez d\xE9crire une journ\xE9e typique, des petites p\xE9rip\xE9ties
+    du quotidien vues par les yeux d'un chat. \nN'h\xE9sitez pas \xE0 construire
+    la syntaxe comme vous imaginez le chat parler. Ajoutez-y du style pour qu'on
+    sache qu'il s'agit d'un chat.\nAventurier voyageant de toit en toit ? Ou grognon
+    qui attend d'\xEAtre nourri ? Chat abandonn\xE9 ou chat de maison fugitif d\xE9couvrant
+    sa libert\xE9 ?\n \n</color>\n<align=center><#BFB9AE>D\xE9crivez votre vie de
+    chat !</color></align>\n</size>"
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 0
@@ -5830,8 +5776,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6944380729518645742}
   m_HandleRect: {fileID: 6944380729518645729}
   m_Direction: 3
-  m_Value: 0
-  m_Size: 0.34724945
+  m_Value: -0
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
