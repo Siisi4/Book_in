@@ -8,6 +8,9 @@ public class SceneSwitchMissions : MonoBehaviour
     public void LoadMissions(){
         SceneManager.LoadScene("Missions");
     }
+    public void LoadItems(){
+        SceneManager.LoadScene("ItemsScene");
+    }
     public void LoadProust(){
         SceneManager.LoadScene("Proust");
     }
