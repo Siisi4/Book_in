@@ -43,4 +43,12 @@ public class SlotLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Main Scene");
     }
+    public void GoToMissions()
+    {
+        SceneManager.LoadScene("Missions");
+    }
+    public void GoToLibrairie()
+    {
+        SceneManager.LoadScene("SavesMenu");
+    }
 }
