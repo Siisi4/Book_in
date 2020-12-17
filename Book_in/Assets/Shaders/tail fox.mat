@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: tail fox
+  m_Shader: {fileID: 4800000, guid: a85f2d168b8084142b652dd4a5fa3377, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Floats:
+    - _BendRotationRandom: 1
+    - _BladeHeight: -0.17
+    - _BladeHeightRandom: 0.03
+    - _BladeWidth: 0.3
+    - _BladeWidthRandom: -0.02
+    - _TessellationUniform: 3.5
+    m_Colors:
+    - _BottomColor: {r: 0.4339623, g: 0.18560429, b: 0, a: 1}
+    - _TopColor: {r: 0.122641504, g: 0.05487626, b: 0.0063634748, a: 1}
